@@ -1,0 +1,48 @@
+Started by user [8mha:////4A6M1I4aMU+DCH/wKMhRWmBaAW4kSyLHyoZLKkm7sGJGAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9rOKiTN2S1KxEAL6JSTbEAAAA[0mJ Sri Teja
+[8mha:////4KIDDKDFoLkYMPno8N5vpZXZD2q0KB/7e4acAGUPo28wAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4OtrLgoyQ7/ZmdCACwqnxdMhJCrmL5fBR/iCzV29U4LQAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4HoDh9vO7eJmtwtW9xiofCBG85/UGlI3WYBoz6wBNgg/AAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in C:\Users\jsriteja\.jenkins\workspace\PetClinicScriptedJob
+[8mha:////4FHPETfYEibsP+3UKDSC7+w47zdaMlbaKQPfQ1G1zx2+AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4KE4pB/TPjyr/Dp2fIyvsgDm/ZuRWSjmt8H91rUDcp66AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4IaJDYaC0jxSyjVlmIFDbLAqpeTntIE/yqNbT/5XtowRAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Checkout)
+[8mha:////4Ort8WyNhWHTCVKlvvyqSHdu5p+oc8YCT4+GCdI0ewVeAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] git
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\Users\jsriteja\.jenkins\workspace\PetClinicScriptedJob\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/jsriteja/SpringPetClinic.git # timeout=10
+Fetching upstream changes from https://github.com/jsriteja/SpringPetClinic.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.35.2.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/jsriteja/SpringPetClinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 915bbb672778969f8d10357bec3694c01bb1137c (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 915bbb672778969f8d10357bec3694c01bb1137c # timeout=10
+ > git.exe branch -a -v --no-abbrev # timeout=10
+ > git.exe branch -D main # timeout=10
+ > git.exe checkout -b main 915bbb672778969f8d10357bec3694c01bb1137c # timeout=10
+Commit message: "Update application.properties"
+ > git.exe rev-list --no-walk 915bbb672778969f8d10357bec3694c01bb1137c # timeout=10
+[8mha:////4BDN6luDvEDtQmPu7znhRcJiE6WBvQcM7rJMY9AZ/T0pAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4AM/zTWLpXfwLJ+RvQFBZfnFJYstz1Dk7hVlXFlWdxByAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4DIoWpAzWq2Nq37kNR+v8MYORPHsEnlJi7h3eS/xZ24iAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] stage
+[8mha:////4DeX+eL24jQY5pYDLDSjQXf79H2ZuVlyVPuV1V60t/+8AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] { (Build)
+[8mha:////4IYLtZLvRsxkT3kwzuRFpswu51Nwmz6dxH586S+h9jm4AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withMaven
+[withMaven] Options: []
+[withMaven] Available options: 
+[withMaven] using JDK installation provided by the build agent
+[withMaven] using Maven installation 'M3'
+[8mha:////4IWkQgIpSTx8296+x0iUJgjw4giU8p2gZmMC5OM7gMtJAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4GX1GWU2sDb22QQXS1Awktibbq/Sd45IhsrT2aGEw1PKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] sh
++ mvn compile
+C:/Users/jsriteja/.jenkins/workspace/PetClinicScriptedJob@tmp/durable-6eef9949/script.sh: line 1: mvn: command not found
+[8mha:////4DM1/6ygxKuK+EcYvea5plHfq9/Tl8dzo5zFpe3RAUAKAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N7BnLt++AAAA[0m[Pipeline] }
+[8mha:////4MkpDpKvK/6O48rfjZV5+G4qQu4mmw2wRyqpVD9uTiohAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N4glvS6+AAAA[0m[Pipeline] // withMaven
+[8mha:////4D1MDhLUwWjttowjVbz6SNMNPVPRf6WM6kZWgTSRHhU+AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyqSwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfl6fofL4AAAA=[0m[Pipeline] }
+[8mha:////4A7igZqqaVey6lCOERKuh+XsMqQvXcCecw1x4uF2BX8aAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICHRKiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nbf2r7BtQlufq+AAAA[0m[Pipeline] // stage
+[8mha:////4BWdezd3VXlS8GUqv29ZzKQHbzFcSX20j8SKiLEksIxOAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9APRJVd+9AAAA[0m[Pipeline] }
+[8mha:////4L9sf3sZmz3fMGkkzU+fgY7wvSPw3JvNzPYvx0P1nimeAAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJBUCIqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBj1wny3VaQ7T+IzLXKvQAAAA==[0m[Pipeline] // node
+[8mha:////4KLmfUUjen6WTJV/DHlLsDIlww6GcjFhWOScD7MFA9ZDAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMtI6VbYbGE0SIMZDZxWQRKk/k1byDjMxY+av/XvNeb6xTxJGjU62lzlOqverD4OanRo7dNfCoWr6omilxsKqyY8WNPS1YsVgsy3KsNDaW6sDJkxNsdWsepgiGXHGWOLuDRu6bO57I9FwWE+ULU8TuNjSJ6df5G8DU94K83Auy8gOu1dKAvQAAAA==[0m[Pipeline] End of Pipeline
+ERROR: script returned exit code 127
+Finished: FAILURE

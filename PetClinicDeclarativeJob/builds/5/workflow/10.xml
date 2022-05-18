@@ -1,0 +1,31 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<Tag plugin="workflow-support@819.v37d707a_71d9b_">
+  <node class="cps.n.StepStartNode" plugin="workflow-cps@2689.v434009a_31b_f1">
+    <parentIds>
+      <string>9</string>
+    </parentIds>
+    <id>10</id>
+    <descriptorId>org.jenkinsci.plugins.workflow.steps.EnvStep</descriptorId>
+  </node>
+  <actions>
+    <s.a.LogStorageAction/>
+    <cps.a.ArgumentsActionImpl plugin="workflow-cps@2689.v434009a_31b_f1">
+      <arguments>
+        <entry>
+          <string>overrides</string>
+          <list>
+            <string>GIT_BRANCH=origin/main</string>
+            <string>GIT_COMMIT=61e5ddd03225b6c84fc2b12e177b16c1176ce754</string>
+            <string>GIT_PREVIOUS_COMMIT=915bbb672778969f8d10357bec3694c01bb1137c</string>
+            <string>GIT_URL=https://github.com/jsriteja/SpringPetClinic.git</string>
+          </list>
+        </entry>
+      </arguments>
+      <sensitiveVariables/>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </cps.a.ArgumentsActionImpl>
+    <wf.a.TimingAction plugin="workflow-api@1144.v61c3180fa_03f">
+      <startTime>1651326613527</startTime>
+    </wf.a.TimingAction>
+  </actions>
+</Tag>

@@ -1,0 +1,128 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1180.v04c4e75dce43">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>jsri-teja</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@570.v21311f4951f8">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <hudson.plugins.git.util.BuildData plugin="git@4.11.1">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/main</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@3.11.0">
+              <sha1>915bbb672778969f8d10357bec3694c01bb1137c</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/main</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>2</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>https://github.com/jsriteja/SpringPetClinic.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@399.v9b_8f4da_65061">
+      <revisionStates>
+        <entry>
+          <string>git https://github.com/jsriteja/SpringPetClinic.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+  </actions>
+  <queueId>12</queueId>
+  <timestamp>1651324561089</timestamp>
+  <startTime>1651324561102</startTime>
+  <result>FAILURE</result>
+  <duration>4693</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>node{
+    stage(&apos;Checkout&apos;){
+        git branch: &apos;main&apos;,url: &apos;https://github.com/jsriteja/SpringPetClinic.git&apos;
+    }
+    stage(&apos;Build&apos;){
+        withMaven(maven: &apos;M3&apos;){
+            sh &apos;mvn compile&apos;
+        }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="concurrent-hash-map">
+      <entry>
+        <string>flowNode</string>
+        <long>287427300</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>10282600</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>699696400</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>16557000</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>239738600</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>21</iota>
+    <head>1:21</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@4.11.1">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>https://github.com/jsriteja/SpringPetClinic.git</url>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/main</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>main</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>C:\Users\jsriteja\.jenkins\workspace\PetClinicScriptedJob</workspace>
+      <changelogFile>C:\Users\jsriteja\.jenkins\jobs\PetClinicScriptedJob\builds\2\changelog13060525688152848251.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
+</flow-build>

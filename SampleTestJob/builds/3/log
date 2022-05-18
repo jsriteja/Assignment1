@@ -1,0 +1,14 @@
+Started by upstream project "[8mha:////4Hdq+iQ/jQ8+QAWrwqc5FWAprHXT5RR6ql+o1cRRhiIpAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP3gxNyCnFSX1IKc/EovIB8AUjFjYMoAAAA=[0mSampleDeployJob" build number [8mha:////4BB9lR615dLoOK9yFQg3pss2mR9agbxoQLAucpoYNjWKAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjH9rPwk/eDE3IKcVJfUgpz8Si8g3xgAQhTF9MsAAAA=[0m3
+originally caused by:
+ Started by upstream project "[8mha:////4II6QyFliTivfyhp1mGpEFUlRV2OtkPPmzfx6kvj6nMyAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JP3gxNyCnFSn0sycFC8gFwCmIcYpyQAAAA==[0mSampleBuildJob" build number [8mha:////4JpREjLiu2+I+i8Xb9QIkHBrqZfi/wuvUZa2Al3D8qSSAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwk/eDE3IKcVKfSzJwULyDXGAC4RT2nygAAAA==[0m3
+ originally caused by:
+  Started by user [8mha:////4A6M1I4aMU+DCH/wKMhRWmBaAW4kSyLHyoZLKkm7sGJGAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9rOKiTN2S1KxEAL6JSTbEAAAA[0mJ Sri Teja
+Running as SYSTEM
+Building in workspace C:\Users\jsriteja\.jenkins\workspace\SampleTestJob
+[SampleTestJob] $ cmd /c call C:\Users\jsriteja\AppData\Local\Temp\jenkins13520829170107559941.bat
+
+C:\Users\jsriteja\.jenkins\workspace\SampleTestJob>echo "test job done successfully" 
+"test job done successfully"
+
+C:\Users\jsriteja\.jenkins\workspace\SampleTestJob>exit 0 
+Finished: SUCCESS

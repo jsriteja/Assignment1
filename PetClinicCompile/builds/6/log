@@ -1,0 +1,132 @@
+Started by user [8mha:////4A6M1I4aMU+DCH/wKMhRWmBaAW4kSyLHyoZLKkm7sGJGAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9rOKiTN2S1KxEAL6JSTbEAAAA[0mJ Sri Teja
+Running as SYSTEM
+Building in workspace C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/jsriteja/SpringPetClinic.git # timeout=10
+Fetching upstream changes from https://github.com/jsriteja/SpringPetClinic.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.35.2.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/jsriteja/SpringPetClinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 915bbb672778969f8d10357bec3694c01bb1137c (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 915bbb672778969f8d10357bec3694c01bb1137c # timeout=10
+Commit message: "Update application.properties"
+ > git.exe rev-list --no-walk 915bbb672778969f8d10357bec3694c01bb1137c # timeout=10
+[PetClinicCompile] $ cmd.exe /C "C:\Users\jsriteja\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\M3\bin\mvn.cmd compile && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.springframework.samples:spring-petclinic >------------
+[INFO] Building petclinic 2.1.0.BUILD-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[8mha:////4HvHiLduj4h3OJQ09/FO/pYA1IKmWR/lbuwPTmNUZpOmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (default) @ spring-petclinic ---
+[INFO] argLine set to -javaagent:C:\\Users\\jsriteja\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.2\\org.jacoco.agent-0.8.2-runtime.jar=destfile=C:\\Users\\jsriteja\\.jenkins\\workspace\\PetClinicCompile\\target\\jacoco.exec
+[INFO] 
+[8mha:////4HvHiLduj4h3OJQ09/FO/pYA1IKmWR/lbuwPTmNUZpOmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- git-commit-id-plugin:2.2.5:revision (default) @ spring-petclinic ---
+[INFO] dotGitDirectory C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\.git
+[INFO] git.build.user.name 
+[INFO] git.build.user.email 
+[INFO] Using environment variable based branch name. CI_COMMIT_REF_NAME = null
+[INFO] Detected that running on CI environment, but using repository branch, no GIT_BRANCH detected.
+[INFO] git.branch 915bbb672778969f8d10357bec3694c01bb1137c
+[INFO] --always = true
+[INFO] --dirty = -dirty
+[INFO] --abbrev = 7
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] evalCommit is [915bbb672778969f8d10357bec3694c01bb1137c]
+[INFO] git.commit.id.describe 915bbb6
+[INFO] git.commit.id 915bbb672778969f8d10357bec3694c01bb1137c
+[INFO] git.commit.id.abbrev 915bbb6
+[INFO] git.dirty false
+[INFO] git.commit.user.name AnjuMeleth
+[INFO] git.commit.user.email 46922680+AnjuMeleth@users.noreply.github.com
+[INFO] git.commit.message.full Update application.properties
+[INFO] git.commit.message.short Update application.properties
+[INFO] git.commit.time 2020-11-06T04:22:42+0530
+[INFO] git.remote.origin.url https://github.com/jsriteja/SpringPetClinic.git
+[INFO] git.tags 
+[INFO] evalCommit is [915bbb672778969f8d10357bec3694c01bb1137c]
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] git.closest.tag.name 
+[INFO] evalCommit is [915bbb672778969f8d10357bec3694c01bb1137c]
+[INFO] Tag refs [[]]
+[INFO] Created map: [{}]
+[INFO] git.closest.tag.commit.count 
+[INFO] git.total.commit.count 2
+[INFO] git.build.time 2022-04-30T18:40:07+0530
+[INFO] git.build.version 2.1.0.BUILD-SNAPSHOT
+[INFO] git.build.host LIN19002832
+[INFO] git.build.number 
+[INFO] git.build.number.unique 
+[INFO] git.commit.id.describe-short 915bbb6
+[INFO] found property git.tags
+[INFO] found property git.closest.tag.commit.count
+[INFO] found property git.build.version
+[INFO] found property git.commit.user.name
+[INFO] found property git.commit.id.abbrev
+[INFO] found property git.branch
+[INFO] found property git.build.host
+[INFO] found property git.commit.id.describe-short
+[INFO] found property git.total.commit.count
+[INFO] found property git.build.number
+[INFO] found property git.commit.id.describe
+[INFO] found property git.build.user.email
+[INFO] found property git.commit.id
+[INFO] found property git.commit.message.short
+[INFO] found property git.commit.user.email
+[INFO] found property git.build.number.unique
+[INFO] found property git.closest.tag.name
+[INFO] found property git.commit.time
+[INFO] found property git.build.time
+[INFO] found property git.build.user.name
+[INFO] found property git.dirty
+[INFO] found property git.commit.message.full
+[INFO] found property git.remote.origin.url
+[INFO] Reading existing properties file [C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\target\classes\git.properties] (for module petclinic)...
+[INFO] Properties file [C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\target\classes\git.properties] is up-to-date (for module petclinic)...
+[INFO] 
+[8mha:////4HvHiLduj4h3OJQ09/FO/pYA1IKmWR/lbuwPTmNUZpOmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- spring-boot-maven-plugin:2.1.1.RELEASE:build-info (default) @ spring-petclinic ---
+[INFO] 
+[8mha:////4HvHiLduj4h3OJQ09/FO/pYA1IKmWR/lbuwPTmNUZpOmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- wro4j-maven-plugin:1.8.0:run (default) @ spring-petclinic ---
+[INFO] C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile/src/main/less
+[INFO] Executing the mojo: 
+[INFO] Wro4j Model path: C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\src\main\wro\wro.xml
+[INFO] targetGroups: null
+[INFO] minimize: true
+[INFO] ignoreMissingResources: null
+[INFO] parallelProcessing: false
+[INFO] buildDirectory: C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\target
+[INFO] destinationFolder: C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\target
+[INFO] cssDestinationFolder: C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\target\classes\static\resources\css
+[INFO] The following groups will be processed: [petclinic]
+[INFO] folder: C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\target\classes\static\resources\css
+[INFO] processing group: petclinic.css
+[8mha:////4EFe5R/94LAC90zAOcbPsA3KZ1lnI7mYHr/TJU7AkhLAAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Less warnings are:
+[8mha:////4EFe5R/94LAC90zAOcbPsA3KZ1lnI7mYHr/TJU7AkhLAAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] 10:1 Cannot link source map. Css result location is not know and could not be deduced from input less source..
+[INFO] file size: petclinic.css -> 152399 bytes
+[INFO] C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\target\classes\static\resources\css\petclinic.css (152399 bytes)
+[INFO] folder: C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\target
+[INFO] processing group: petclinic.js
+[INFO] 
+[8mha:////4HvHiLduj4h3OJQ09/FO/pYA1IKmWR/lbuwPTmNUZpOmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-petclinic ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 35 resources
+[INFO] 
+[8mha:////4HvHiLduj4h3OJQ09/FO/pYA1IKmWR/lbuwPTmNUZpOmAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ spring-petclinic ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 25 source files to C:\Users\jsriteja\.jenkins\workspace\PetClinicCompile\target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.799 s
+[INFO] Finished at: 2022-04-30T18:40:15+05:30
+[INFO] ------------------------------------------------------------------------
+Triggering a new build of [8mha:////4MtQBwdkHpUEvTVvJZU/T4aJU05zk5/92aE/kz92I073AAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JP2A1BJnoI2ZySGpxSX6ALiJxvHIAAAA[0mPetClinicTest
+Finished: SUCCESS

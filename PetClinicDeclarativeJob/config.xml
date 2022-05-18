@@ -1,0 +1,53 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1180.v04c4e75dce43">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2077.vc78ec45162f1"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2077.vc78ec45162f1">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2689.v434009a_31b_f1">
+    <script>pipeline{
+    agent{label &apos;master&apos;}
+    tools{maven &apos;M3&apos;}
+    stages{
+        stage(&apos;Checkout&apos;){
+            steps{
+                git branch: &apos;main&apos;, url: &apos;https://github.com/jsriteja/SpringPetClinic.git&apos;
+            }
+            
+        }
+        stage(&apos;Build&apos;){
+            steps{
+                sh &apos;mvn compile&apos;
+            }
+        }
+        stage(&apos;Test&apos;){
+            steps{
+                sh &apos;mvn test&apos;
+            }
+        }
+        stage(&apos;Package&apos;){
+            steps{
+                sh &apos;mvn package&apos;
+            }
+        }
+        stage(&apos;Deploy&apos;){
+            steps{
+                sh &apos;java -jar /var/lib/jenkins/workplace/PetClinicDeclarativePipeline/target/*.jar&apos;
+            }
+        }
+    }
+}
+</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

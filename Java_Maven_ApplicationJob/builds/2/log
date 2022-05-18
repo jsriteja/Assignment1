@@ -1,0 +1,76 @@
+Started by user [8mha:////4A6M1I4aMU+DCH/wKMhRWmBaAW4kSyLHyoZLKkm7sGJGAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9rOKiTN2S1KxEAL6JSTbEAAAA[0mJ Sri Teja
+Running as SYSTEM
+Building in workspace C:\Users\jsriteja\.jenkins\workspace\Java_Maven_ApplicationJob
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\Users\jsriteja\.jenkins\workspace\Java_Maven_ApplicationJob\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/jsriteja/SpringPetClinic.git # timeout=10
+Fetching upstream changes from https://github.com/jsriteja/SpringPetClinic.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.35.2.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/jsriteja/SpringPetClinic.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 61e5ddd03225b6c84fc2b12e177b16c1176ce754 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 61e5ddd03225b6c84fc2b12e177b16c1176ce754 # timeout=10
+Commit message: "Create Jenkinsfile"
+ > git.exe rev-list --no-walk 61e5ddd03225b6c84fc2b12e177b16c1176ce754 # timeout=10
+[Java_Maven_ApplicationJob] $ cmd /c call C:\Users\jsriteja\AppData\Local\Temp\jenkins5685516834752556896.bat
+
+C:\Users\jsriteja\.jenkins\workspace\Java_Maven_ApplicationJob>mvn clean 
+'mvn' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\jsriteja\.jenkins\workspace\Java_Maven_ApplicationJob>exit 9009 
+Build step 'Execute Windows batch command' marked build as failure
+Recording test results
+ERROR: Step ‘Publish JUnit test result report’ aborted due to exception: 
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1471)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:978)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:494)
+Caused: org.dom4j.DocumentException: Error on line 1 of document  : Content is not allowed in prolog.
+	at org.dom4j.io.SAXReader.read(SAXReader.java:511)
+	at org.dom4j.io.SAXReader.read(SAXReader.java:392)
+	at hudson.tasks.junit.SuiteResult.parse(SuiteResult.java:177)
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:350)
+Caused: java.io.IOException: Failed to read C:\Users\jsriteja\.jenkins\workspace\Java_Maven_ApplicationJob\.editorconfig
+Is this really a JUnit report file? Your configuration must be matching too many files
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:356)
+	at hudson.tasks.junit.TestResult.parsePossiblyEmpty(TestResult.java:280)
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:224)
+	at hudson.tasks.junit.TestResult.parse(TestResult.java:198)
+	at hudson.tasks.junit.TestResult.<init>(TestResult.java:152)
+	at hudson.tasks.junit.JUnitParser$ParseResultCallable.invoke(JUnitParser.java:147)
+	at hudson.FilePath.act(FilePath.java:1200)
+	at hudson.FilePath.act(FilePath.java:1183)
+	at hudson.tasks.junit.JUnitParser.parseResult(JUnitParser.java:107)
+	at hudson.tasks.junit.JUnitResultArchiver.parse(JUnitResultArchiver.java:153)
+	at hudson.tasks.junit.JUnitResultArchiver.parseAndSummarize(JUnitResultArchiver.java:247)
+	at hudson.tasks.junit.JUnitResultArchiver.perform(JUnitResultArchiver.java:170)
+	at jenkins.tasks.SimpleBuildStep.perform(SimpleBuildStep.java:123)
+	at hudson.tasks.BuildStepCompatibilityLayer.perform(BuildStepCompatibilityLayer.java:79)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:20)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:814)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:763)
+	at hudson.model.Build$BuildExecution.post2(Build.java:179)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:707)
+	at hudson.model.Run.execute(Run.java:1921)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:44)
+	at hudson.model.ResourceController.execute(ResourceController.java:101)
+	at hudson.model.Executor.run(Executor.java:442)
+Finished: FAILURE

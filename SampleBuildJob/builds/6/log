@@ -1,0 +1,12 @@
+Started by user [8mha:////4A6M1I4aMU+DCH/wKMhRWmBaAW4kSyLHyoZLKkm7sGJGAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9rOKiTN2S1KxEAL6JSTbEAAAA[0mJ Sri Teja
+Started by user [8mha:////4A6M1I4aMU+DCH/wKMhRWmBaAW4kSyLHyoZLKkm7sGJGAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9rOKiTN2S1KxEAL6JSTbEAAAA[0mJ Sri Teja
+Running as SYSTEM
+Building in workspace C:\Users\jsriteja\.jenkins\workspace\SampleBuildJob
+[SampleBuildJob] $ cmd /c call C:\Users\jsriteja\AppData\Local\Temp\jenkins4453625458815669223.bat
+
+C:\Users\jsriteja\.jenkins\workspace\SampleBuildJob>echo "build job done successfully" 
+"build job done successfully"
+
+C:\Users\jsriteja\.jenkins\workspace\SampleBuildJob>exit 0 
+Triggering a new build of [8mha:////4Hdq+iQ/jQ8+QAWrwqc5FWAprHXT5RR6ql+o1cRRhiIpAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP3gxNyCnFSX1IKc/EovIB8AUjFjYMoAAAA=[0mSampleDeployJob
+Finished: SUCCESS

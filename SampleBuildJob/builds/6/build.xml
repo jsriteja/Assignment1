@@ -1,0 +1,29 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>jsri-teja</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>2</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>99</queueId>
+  <timestamp>1651212425144</timestamp>
+  <startTime>1651212425150</startTime>
+  <result>SUCCESS</result>
+  <duration>1293</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\jsriteja\.jenkins\workspace\SampleBuildJob</workspace>
+  <hudsonVersion>2.332.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

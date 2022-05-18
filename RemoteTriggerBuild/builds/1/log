@@ -1,0 +1,23 @@
+Started by user [8mha:////4A6M1I4aMU+DCH/wKMhRWmBaAW4kSyLHyoZLKkm7sGJGAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZ+/dLi1CL9rOKiTN2S1KxEAL6JSTbEAAAA[0mJ Sri Teja
+Running as SYSTEM
+Building in workspace C:\Users\jsriteja\.jenkins\workspace\RemoteTriggerBuild
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/jsriteja/JenkinsDemo.git
+ > git.exe init C:\Users\jsriteja\.jenkins\workspace\RemoteTriggerBuild # timeout=10
+Fetching upstream changes from https://github.com/jsriteja/JenkinsDemo.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.35.2.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/jsriteja/JenkinsDemo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/jsriteja/JenkinsDemo.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 9dc74e8d416d2404c698913cd49acdd200b3e40a (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 9dc74e8d416d2404c698913cd49acdd200b3e40a # timeout=10
+Commit message: "jenkinfile craete"
+First time build. Skipping changelog.
+Finished: SUCCESS

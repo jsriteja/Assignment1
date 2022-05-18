@@ -1,0 +1,64 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>SampleDeployJob</upstreamProject>
+            <upstreamUrl>job/SampleDeployJob/</upstreamUrl>
+            <upstreamBuild>4</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>SampleBuildJob</upstreamProject>
+                <upstreamUrl>job/SampleBuildJob/</upstreamUrl>
+                <upstreamBuild>4</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UserIdCause>
+                    <userId>jsri-teja</userId>
+                  </hudson.model.Cause_-UserIdCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>SampleBuildJob</upstreamProject>
+                <upstreamUrl>job/SampleBuildJob/</upstreamUrl>
+                <upstreamBuild>5</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UserIdCause>
+                    <userId>jsri-teja</userId>
+                  </hudson.model.Cause_-UserIdCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>SampleBuildJob</upstreamProject>
+                <upstreamUrl>job/SampleBuildJob/</upstreamUrl>
+                <upstreamBuild>6</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UserIdCause>
+                    <userId>jsri-teja</userId>
+                  </hudson.model.Cause_-UserIdCause>
+                  <hudson.model.Cause_-UserIdCause reference="../hudson.model.Cause_-UserIdCause"/>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>100</queueId>
+  <timestamp>1651212439721</timestamp>
+  <startTime>1651212439733</startTime>
+  <result>SUCCESS</result>
+  <duration>1261</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\jsriteja\.jenkins\workspace\SampleTestJob</workspace>
+  <hudsonVersion>2.332.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>
